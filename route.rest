@@ -1,0 +1,27 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/5ff495855f18d234d4913961
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name" : "Amazing Person",
+    "userInteraction" : "The user Interaction is completed"
+}
+
+###
+
+DELETE http://localhost:3000/users/5ff49a79f03c9355944729c3
+
+###
+
+PATCH  http://localhost:3000/users/5ff495855f18d234d4913961
+Content-Type: application/json
+
+{
+    "name" : "Payal"
+}

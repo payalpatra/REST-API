@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const express = require("express");
-const user = require("../models/user");
+// const user = require("../models/user");
 const router = express.Router();
 const User = require("../models/user"); // This gonna pull our users from models/user
 // Getting all Users

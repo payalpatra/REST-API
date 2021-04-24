@@ -2,16 +2,18 @@ GET http://localhost:3000/users
 
 ###
 
-GET http://localhost:3000/users/5ff495855f18d234d4913961
+GET http://localhost:3000/users/60848e0d71b13c3308275472
 ###
 
 POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-    "name" : "Amazing Person",
-    "userInteraction" : "The user Interaction is completed"
+    "name" : "Payal", 
+    "userInteraction" :"Hello There"
+    
 }
+
 
 ###
 

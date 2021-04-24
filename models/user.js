@@ -9,12 +9,13 @@ const usersSchema = new mongoose.Schema({
   },
   userInteraction: {
     type: String,
-    required: true,
+    required: false,
   },
   userInteractionDone: {
     type: Date,
     required: true,
-    default: Date.now, //It's gonna get the default date if we don't pass any date
+    default: Date.now,
+     //It's gonna get the default date if we don't pass any date
   },
 });
 

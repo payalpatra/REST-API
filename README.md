@@ -20,7 +20,7 @@ This is a REST API.
 ###### (Create .env file in the root directory with the following Variable) 
 
   ```sh
-   DATABASE_URL = MONGO_URI =mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.ifcel.mongodb.net/<DBNAME>?retryWrites=true&w=majority
+   DATABASE_URL =mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.ifcel.mongodb.net/<DBNAME>?retryWrites=true&w=majority
    ```
 
 * ##### Starting the server
